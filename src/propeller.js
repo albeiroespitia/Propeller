@@ -17,6 +17,7 @@
  */
 
 ;
+var Propeller;
 (function (w) {
 
     var jqPluginName = 'propeller';
@@ -34,7 +35,7 @@
         touchElement: null
     };
 
-    var Propeller = function (element, options) {
+    Propeller = function (element, options) {
         if (typeof element === 'string') {
             element = document.querySelectorAll(element);
         }
@@ -436,3 +437,5 @@ window.requestAnimFrame = (function () {
         window.setTimeout(callback, 1000 / 60);
     };
 })();
+
+export default Propeller;
