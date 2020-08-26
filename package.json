@@ -1,6 +1,6 @@
 {
   "name": "@albeiro/propeller",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "JavaScript library to rotate elements by mouse with inertia or without it.",
   "main": "./src/propeller.js",
   "directories": {
