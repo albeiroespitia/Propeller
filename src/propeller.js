@@ -438,4 +438,4 @@ window.requestAnimFrame = (function () {
     };
 })();
 
-export default Propeller;
+module.exports = Propeller;
